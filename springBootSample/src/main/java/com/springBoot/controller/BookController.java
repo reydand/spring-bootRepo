@@ -19,7 +19,7 @@ public class BookController {
 	BookService bookService;
 	@GetMapping("/showName")
 	 @ResponseBody
-	 @ApiOperation(value = "Show book api")
+	 @ApiOperation(value = "Show book api old")
 	public String getBookName() {
 		return bookService.getBookName();
 	}
