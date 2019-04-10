@@ -18,8 +18,8 @@ public class BookController {
 	@Autowired
 	BookService bookService;
 	@GetMapping("/showName")
-	 @ResponseBody
-	 @ApiOperation(value = "Show book api old")
+	@ResponseBody
+	@ApiOperation(value = "This is nw API")
 	public String getBookName() {
 		return bookService.getBookName();
 	}

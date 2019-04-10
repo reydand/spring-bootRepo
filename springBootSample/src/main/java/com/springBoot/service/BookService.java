@@ -6,6 +6,6 @@ import org.springframework.stereotype.Service;
 public class BookService {
 	
 	public String getBookName() {
-		return "BookName";
+		return "This is sample book name By Vivek";
 	}
 }
